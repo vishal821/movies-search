@@ -1,0 +1,56 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 5px 0px;
+  }
+  .header img {
+    height: 75px;
+    width: 120px;
+  }
+  .header img:hover {
+    cursor: pointer;
+  }
+  .header a {
+    float: left;
+    color: #4f4e4e;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 25px;
+  }
+  .header-right {
+    float: right;
+    margin-top: 30px;
+  }
+  .col6 {
+    position: initial;
+  }
+  .search-container {
+    margin-top: 30px;
+  }
+  .search-container input {
+    width: 100%;
+    padding: 8px 15px;
+  }
+  .search-container button {
+    background: #f78127;
+    padding: 10px 15px;
+    color: #ffffff;
+    border: none;
+  }
+  .movies_suggestion{
+    list-style: none;
+    padding: 0px 0px;
+    position: absolute;
+    background: #f1f1f1;
+    width: 48%;
+    z-index: 1;
+  }   
+  .movies_suggestion li a {
+    text-transform: capitalize;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+  } 

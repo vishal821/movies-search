@@ -1,0 +1,29 @@
+.body_desc h4 {
+    margin: 25px 0px;
+    text-transform: uppercase;
+}
+.body_desc .lines {
+  color: #f78127;
+}
+.movies_list {
+  border: 1px solid #ccc;
+  background: #f1f1f161;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  height: 360px;
+}
+.movies_list h4{
+  padding: 0px 15px;
+  margin: 15px 0px;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: #4a4848;
+}
+.movies_list p{
+  padding: 0px 15px;
+}
+.movies_list img {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}

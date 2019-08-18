@@ -1,0 +1,8 @@
+.movies_desc {
+    height: -webkit-fill-available;
+    margin-top: 15px;
+}
+.movies_desc .movies_list img{
+    height: 400px;
+    border-radius: 10px;
+}
